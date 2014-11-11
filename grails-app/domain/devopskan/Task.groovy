@@ -1,16 +1,15 @@
-package projectadmin
+package devopskan
 
 class Task {
 
-	Long id
 	String title
 	String description
 	String businessObjetive
 	
 	Developer developer
-	Project project
+	Backlog backlog
 	Initiative initiative
-	String initiativeProject
+	String project
 	Module module
 	
 	TaskType type
@@ -19,17 +18,20 @@ class Task {
 	Boolean outsourcerd
 	String sponsor
 	Integer iniciativePriority
-	Integer projectPriority
+	Integer backlogPriority
 
+	Date dateCreated
+	Date lastUpdated
+	
 	static hasMany = [notes:Note]
 		
     static constraints = {
 		developer(nullable:true)
-		project(nullable:true)
+		backlog(nullable:true)
     }
 	
 	String toString() {
-		return id+" - "+title
+		return title
 	}
 
 }

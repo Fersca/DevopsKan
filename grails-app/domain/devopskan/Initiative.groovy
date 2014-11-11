@@ -1,10 +1,9 @@
-package projectadmin
+package devopskan
 
 class Initiative {
 
 	String name
 	String sponsor
-	String internalProyect
 	String description
 	static hasMany = [tasks:Task]
 	

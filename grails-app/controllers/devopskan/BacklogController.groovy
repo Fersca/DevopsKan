@@ -1,6 +1,6 @@
 package devopskan
 
-class TaskController {
+class BacklogController {
 
     static scaffold = true
 }

@@ -1,6 +1,6 @@
-package projectadmin
+package devopskan
 
-class Project {
+class Backlog {
 
 	String name
 	String description
