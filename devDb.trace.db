@@ -124,3 +124,42 @@ alter table backlog_module drop constraint FK_3j0vt39hwknw84ybn2v6ooni1 if exist
 11-11 21:50:35 jdbc[12]: exception
 org.h2.jdbc.JdbcSQLException: Table "BACKLOG_MODULE" not found; SQL statement:
 alter table backlog_module drop constraint FK_1p30jmc347ild2nh40grfalqg if exists [42102-176]
+11-11 22:24:56 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Table "BACKLOG_DEVELOPER" not found; SQL statement:
+alter table backlog_developer drop constraint FK_tm9ba52262d3ppb7v2lj620qn if exists [42102-176]
+11-11 22:24:56 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Table "BACKLOG_DEVELOPER" not found; SQL statement:
+alter table backlog_developer drop constraint FK_bd7tc2ov1mcrbv9s4ekxorp4h if exists [42102-176]
+11-11 22:24:56 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Table "BACKLOG_MODULE" not found; SQL statement:
+alter table backlog_module drop constraint FK_3j0vt39hwknw84ybn2v6ooni1 if exists [42102-176]
+11-11 22:24:56 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Table "BACKLOG_MODULE" not found; SQL statement:
+alter table backlog_module drop constraint FK_1p30jmc347ild2nh40grfalqg if exists [42102-176]
+11-11 22:24:56 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Table "DEVELOPER" not found; SQL statement:
+alter table developer drop constraint FK_4v51ur4foi5x4v8ycl439cjch if exists [42102-176]
+11-11 22:24:56 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Table "NOTE" not found; SQL statement:
+alter table note drop constraint FK_2ttst170j8w7crlovb2fh7kda if exists [42102-176]
+11-11 22:24:56 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Table "TASK" not found; SQL statement:
+alter table task drop constraint FK_44wkop5n5kfpyk4v3fkxpbd5g if exists [42102-176]
+11-11 22:24:56 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Table "TASK" not found; SQL statement:
+alter table task drop constraint FK_h1qtn3njfulxycysbyuhypf54 if exists [42102-176]
+11-11 22:24:56 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Table "TASK" not found; SQL statement:
+alter table task drop constraint FK_2swuwhnfugfeib6fjj70j7m6t if exists [42102-176]
+11-11 22:24:56 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Table "TASK" not found; SQL statement:
+alter table task drop constraint FK_kl3bno0q8s01nblh95wfkx3e9 if exists [42102-176]
+11-11 22:24:56 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Table "TASK" not found; SQL statement:
+alter table task drop constraint FK_r5vagio1ui0rf0xmfbpley3ux if exists [42102-176]
+11-11 22:24:56 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Table "TASK" not found; SQL statement:
+alter table task drop constraint FK_lhy4fjdh2ihwi1eveniam3dmw if exists [42102-176]
+11-11 22:24:56 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Table "TASK" not found; SQL statement:
+alter table task drop constraint FK_huq4191pkldkpjkj62cb3crxr if exists [42102-176]
