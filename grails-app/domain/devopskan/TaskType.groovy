@@ -5,6 +5,8 @@ class TaskType {
 	String name
 	String description
 	
+	static hasMany = [tasks:Task]
+	
     static constraints = {
     }
 	

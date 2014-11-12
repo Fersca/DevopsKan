@@ -5,6 +5,8 @@ class Module {
 	String name
 	String description
 	
+	static hasMany = [tasks:Task]
+	
 	static constraints = {
 	}
 

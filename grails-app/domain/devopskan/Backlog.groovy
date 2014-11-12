@@ -4,7 +4,8 @@ class Backlog {
 
 	String name
 	String description
-	static hasMany = [tasks:Task]
+	
+	static hasMany = [tasks:Task, modules:Module, developers:Developer]
 	
     static constraints = {
     }

@@ -5,6 +5,8 @@ class Role {
 	String name
 	Integer productivityFactor
 	
+	static hasMany = [developers:Developer]
+	
     static constraints = {
     }
 	

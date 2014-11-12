@@ -5,6 +5,8 @@ class TaskDifficulty {
 	String name
 	Integer difficultyFactor
 	
+	static hasMany = [tasks:Task]
+	
     static constraints = {
     }
 	
