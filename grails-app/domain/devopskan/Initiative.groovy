@@ -7,9 +7,13 @@ class Initiative {
 	String description
 	static hasMany = [tasks:Task]
 	
-    static constraints = {
-    }
-	
+	static mapping = {
+		description type: 'text'
+	}
+
+	static constraints = {
+		description(widget:'textarea')
+	}
 	String toString() {
 		return name
 	}

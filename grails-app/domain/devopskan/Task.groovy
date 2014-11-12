@@ -20,14 +20,26 @@ class Task {
 	Integer iniciativePriority
 	Integer backlogPriority
 
+	//Date creationDate
 	Date dateCreated
 	Date lastUpdated
 	
 	static hasMany = [notes:Note]
-		
+
+	static mapping = {
+		description type: 'text'
+		businessObjetive type: 'text'
+	}
+	
     static constraints = {
-		developer(nullable:true)
+		id ()
+		title ()
+		status()
+		module()
 		backlog(nullable:true)
+		developer(nullable:true)
+		description(widget:'textarea')
+		businessObjetive(widget:'textarea')
     }
 	
 	String toString() {
