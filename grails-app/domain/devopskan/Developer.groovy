@@ -10,8 +10,9 @@ class Developer {
 	static hasMany = [tasks:Task]
  	
     static constraints = {
+		password(password:true) 
     }
-	
+		
 	String toString() {
 		return name
 	}
