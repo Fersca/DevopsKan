@@ -92,6 +92,10 @@
 			iniciativa de negocio, la prioridad de las tareas de cada equipo y la prioridad para cada desarrollador.</p>
 
 			<div id="controller-list" role="navigation">
+
+			<BR>			
+			<a href="${createLink(controller: 'module',action: 'alertas')}">- Verificar equipos alertados (CUIDADO, TARDA VARIOS MINUTOS EN CORRER)</a>
+			
 			</div>
 		</div>
 	</body>
