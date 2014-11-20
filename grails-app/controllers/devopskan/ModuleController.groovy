@@ -9,7 +9,7 @@ class ModuleController {
 		def a = new Alertas()
 		def instances = a.run()
 				
-		[badIntances: instances[0],errorIntances: instances[1],warningInstances:instances[2]]
+		[badIntances: instances[0],errorIntances: instances[1],warningInstances:instances[2], nocCero:instances[3], errorServers: instances[4]]
 		
 	}
 }

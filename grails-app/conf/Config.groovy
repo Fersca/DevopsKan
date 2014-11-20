@@ -59,6 +59,15 @@ grails {
     }
 }
 
+grails {
+	mail {
+	  host = "smtp.live.com"
+	  port = 587
+	  username = "reportesapicore@hotmail.com"
+	  password = "fernando1234"
+	  props = ["mail.smtp.starttls.enable":"true","mail.smtp.port":"587"]
+	}
+ }
 
 grails.converters.encoding = "UTF-8"
 // scaffolding templates configuration
